@@ -1,0 +1,55 @@
+.request-compliment {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.rating {
+  height: 150px;
+  width: 132px;
+  /* height: 115px;
+  width: 102px; */
+  margin-top: 101px;
+  margin-bottom: 24px;
+}
+
+.title {
+  width: 292px;
+  height: 68px;
+  font-size: 34px;
+  font-weight: 600;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1;
+  letter-spacing: -1.77px;
+  text-align: center;
+  color: #000000;
+  margin-bottom: 24px;
+}
+
+.stars {
+  display: flex;
+  justify-content: space-between;
+  width: 186px;
+}
+
+.star {
+  height: 30px;
+  width: 31px;
+}
+
+.compliment-button {
+  margin-top: 36px;
+  margin-bottom: 86px;
+  width: 101px;
+  height: 34px;
+  border-radius: 100px;
+  border: solid 2px #2cc6d0;
+  font-size: 12px;
+  font-weight: 600;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.5;
+  letter-spacing: normal;
+  color: #2cc6d0;
+}
