@@ -23,6 +23,7 @@ export default class SendCompliment extends PureComponent {
 
     return cards.map((card) => (
       <Card
+        key={card.key}
         card={card}
         toggleCompliment={this.toggleCompliment}
       />
