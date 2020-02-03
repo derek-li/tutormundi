@@ -15,9 +15,11 @@
   line-height: 1.5;
   letter-spacing: -0.83px;
   color: #000000;
+  font-family: "Work Sans", sans-serif;
 }
 
 .text-input {
+  font-family: "Work Sans", sans-serif;
   margin-top: 12px;
   width: 443px;
   height: 89px;
@@ -26,8 +28,25 @@
   padding: 11px;
   padding-right: 21px;
   padding-left: 20px;
-  /* Placeholder styling */
-  font-size: 16px;
+  font-size: 17px;
   line-height: 1.38;
   letter-spacing: -0.2px;
+  resize: none;
+  color: gray;
+}
+
+.text-input::placeholder {
+  color: lightgray;
+}
+
+@media only screen and (max-width: 480px) {
+  .leave-comment {
+    width: auto;
+    padding-left: 36px;
+    padding-right: 36px;
+  }
+
+  .text-input {
+    width: auto;
+  }
 }

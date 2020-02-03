@@ -1,15 +1,21 @@
 import {
   MagnifyingGlass,
+  MagnifyingGlassSelected,
   Lightbulb,
+  LightbulbSelected,
   SwissArmy,
+  SwissArmySelected,
   File,
+  FileSelected,
   Smiley,
+  SmileySelected,
 } from './assets';
 
 export const cards = [
   {
     key: 1,
     icon: Lightbulb,
+    iconSelected: LightbulbSelected,
     altText: 'lightbulb',
     textContent: 'Estimula a criatividade',
     selected: false,
@@ -17,6 +23,7 @@ export const cards = [
   {
     key: 2,
     icon: MagnifyingGlass,
+    iconSelected: MagnifyingGlassSelected,
     altText: 'magnifying-glass',
     textContent: 'Estimula a curiosidade',
     selected: false,
@@ -24,6 +31,7 @@ export const cards = [
   {
     key: 3,
     icon: SwissArmy,
+    iconSelected: SwissArmySelected,
     altText: 'swiss-army',
     textContent: 'Se adapta à necessidade',
     selected: false,
@@ -31,6 +39,7 @@ export const cards = [
   {
     key: 4,
     icon: File,
+    iconSelected: FileSelected,
     altText: 'file',
     textContent: 'Ótima didáctica',
     selected: false,
@@ -38,6 +47,7 @@ export const cards = [
   {
     key: 5,
     icon: Smiley,
+    iconSelected: SmileySelected,
     altText: 'smiley',
     textContent: 'Gente boasíssima',
     selected: false,

@@ -19,6 +19,9 @@ class App extends PureComponent {
   }
 
   handleCompliment() {
+    setTimeout(() => {
+      window.scrollBy(0, 250);
+    }, 0);
     this.setState({ compliment: true });
   }
 

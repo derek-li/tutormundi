@@ -7,8 +7,6 @@
 .rating {
   height: 150px;
   width: 132px;
-  /* height: 115px;
-  width: 102px; */
   margin-top: 101px;
   margin-bottom: 24px;
 }
@@ -16,8 +14,8 @@
 .title {
   width: 292px;
   height: 68px;
-  font-size: 34px;
-  font-weight: 600;
+  font-size: 36px;
+  font-weight: 700;
   font-stretch: normal;
   font-style: normal;
   line-height: 1;
@@ -25,6 +23,7 @@
   text-align: center;
   color: #000000;
   margin-bottom: 24px;
+  font-family: "Work Sans", sans-serif;
 }
 
 .stars {
@@ -52,4 +51,17 @@
   line-height: 1.5;
   letter-spacing: normal;
   color: #2cc6d0;
+}
+
+@media only screen and (max-width: 480px) {
+  .request-compliment {
+    width: 288px;
+    padding-left: 36px;
+    padding-right: 36px;
+  }
+
+  .rating {
+    height: 115px;
+    width: 102px;
+  }
 }
