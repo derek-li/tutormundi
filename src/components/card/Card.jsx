@@ -34,7 +34,6 @@ export default class Card extends PureComponent {
       <div
         onClick={() => this.toggleCompliment()}
         className={cardClass}
-        key={card.key}
       >
         <img
           className="icon"
